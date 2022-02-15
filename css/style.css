@@ -11,6 +11,11 @@ a, .nav-link{
     color: #437a76;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 /** Header Top **/
 
 #header-top{
@@ -251,7 +256,7 @@ a, .nav-link{
     display: contents;
 }
 
-.sidebar ul.nav li a.active{
+.sidebar ul.nav li a.is-active{
     font-weight: bold;
 }
 
