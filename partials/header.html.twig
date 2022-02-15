@@ -1,0 +1,53 @@
+<div id="main-wrapper" class="layout-main-wrapper clearfix">
+  {% if page.top_most %}
+  <div class="container">
+          {{ page.top_most }}
+  </div>
+  {% endif %}
+  <div class="{{ container }}">
+    <div class="row">
+      <headertop id="header-top" class="header-top" role="banner">
+        {{ page.header_top }}
+      </headertop>
+
+      <header id="header" class="header" role="banner" aria-label="{{ 'Site header'|t}}">
+        <div class="header-wrapper">
+          {{page.header}}
+        </div>
+      </header>
+
+      <navigation id="navigation" class="navigation" role="banner" aria-label="{{ 'Site Navigation Bar'|t}}">
+
+          {% block head %}
+            <nav{{ navbar_attributes }}>
+              {% if container_navbar %}
+              <div class="container">
+              {% endif %}
+                {% if page.navbar %}
+                  <button class="navbar-toggler collapsed" type="button" data-bs-toggle="{{ navbar_collapse_btn_data }}" data-bs-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                  <div class="{{ navbar_collapse_class }}" id="CollapsingNavbar">
+                    {% if navbar_offcanvas %}
+                      <div class="offcanvas-header">
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                    {% endif %}
+                    {{ page.navbar }}
+                    {% if navbar_offcanvas %}
+                      </div>
+                    {% endif %}
+                </div>
+                {% endif %}
+                {% if sidebar_collapse %}
+                  <button class="navbar-toggler navbar-toggler-left collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CollapsingLeft" aria-controls="CollapsingLeft" aria-expanded="false" aria-label="Toggle navigation"></button>
+                {% endif %}
+              {% if container_navbar %}
+              </div>
+              {% endif %}
+            </nav>
+          {% endblock %}
+
+      </navigation>
+    </div>
+  </div>
+</div>

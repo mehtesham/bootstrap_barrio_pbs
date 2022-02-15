@@ -1,0 +1,315 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+body{
+    color: #333333;
+}
+
+a, .nav-link{
+    color: #437a76;
+}
+
+/** Header Top **/
+
+#header-top{
+    display: flex;
+    padding: 0 15px;
+    background-image: url(../images/banner.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+
+/** Header Top **/
+
+/** Header **/
+
+#header{
+    height: 35px;
+}
+
+#header .search-block-form{
+    height: 25px;
+    border: none;
+    color: #9fa3a2;
+    display: inline-flex;
+    float: right;
+}
+
+#header .header-wrapper{
+    height: 25px;
+}
+
+#header .search-block-form #edit-keys{
+    height: 25px;
+    color: #9FA3A2;
+    margin-top:  0;
+    margin-bottom: 0;
+    border-radius: 0;
+    border: 1px solid #9FA3A2;
+}
+
+#header .search-block-form #edit-submit{
+    background: #ffffff url(../images/zoom_in_3.png) top left no-repeat;
+    height: 23px;
+    width: 24px;
+    border: none;
+    border-radius: 0;
+    margin-left: -25px;
+    display: flex;
+    overflow: hidden;
+    color: transparent;
+    margin-top: 1px;
+}
+
+/** Header **/
+
+
+/** Navbar **/
+
+#navigation{
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+}
+
+#navigation .navbar-collapse{
+    flex-grow: 0;
+}
+
+#navigation .navbar{
+    padding-top:  .2em;
+    padding-bottom: .2em;
+}
+
+#navigation li.nav-item{
+    margin: 3px 2px;
+}
+
+#navigation li.nav-item a{
+  font-weight: bold;
+  padding: 3px 10px;
+}
+
+#navigation li.nav-item a:hover,
+#navigation li.nav-item a:active,
+#navigation li.nav-item li a.active,
+#navigation li.nav-itemli a.active-trail{
+  color: #fff;
+  text-decoration: none;
+  background: #437a76;
+}
+
+
+/** Navbar **/
+
+/** Highlighter **/
+
+.highlighted{
+    margin-top: 10px;
+}
+
+/** Highlighter **/
+
+/** Content Area **/
+
+#main{
+    background-color: #EFEFEF;
+    padding: 20px;
+}
+
+.main-content{
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+ 
+/** Content Area **/
+
+/** Fields **/
+.field--label-inline .field__items{
+    display: inline-block;
+}
+
+.field--name-body{
+    margin-top: 20px;
+}
+
+.node .field--type-image{
+    float: right;
+    padding-left: 15px;
+}
+
+/** Fields **/
+
+/** Contacts View **/
+
+.contacts-view .view-header{
+    text-align: center;
+}
+
+.contacts-view th{
+    font-size: 1.1em;
+}
+
+.contacts-view .views-field-title a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contacts-view table tr th, .contacts-view table tr th a, .contacts-view table tr th a:hover, .contacts-view table tr th a:focus{
+    color: #333333;
+}
+
+/** Contacts View **/
+
+/** Table **/
+
+
+/** Table **/
+  
+
+/** Sidebars **/
+
+.sidebar .block{
+    border-color: #ddd;
+    background-color: #fff;
+}
+
+.sidebar h2{
+    background-color: #437a76;
+    color: #ffffff;
+    margin: -15px;
+    margin-bottom: 15px;
+    padding: 7px 15px;
+    text-shadow: none;
+}
+
+.sidebar nav .nav{
+    margin: 0;
+    display: inline-block;
+}
+
+.sidebar nav ul li{
+    list-style: none;
+    border-bottom:  1px solid #ccc;
+}
+
+.sidebar nav ul li:last-child{
+    border: none;
+}
+
+.sidebar nav > ul > li{
+    padding-left: 23px;
+}
+
+.sidebar nav > ul li.nav-item::before{
+  display: inline-block;
+  content: "";
+  background-image: url('data:image/svg+xml,<svg class="bi bi-circle" width="1em" height="1em" viewBox="0 0 16 16" fill="%23a3a3a3" xmlns="http://www.w3.org/2000/svg"><path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/></svg>');
+  background-repeat: no-repeat;
+  -webkit-background-size: .6rem .6rem;
+          background-size: .6rem .6rem;
+  background-position: 0 0.5rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-left: -20px;
+}
+
+.sidebar nav > ul > li.nav-item.menu-item--collapsed::before{
+  display: inline-block;
+  content: "";
+  background-image: url('data:image/svg+xml,<svg class="bi bi-caret-right" width="1em" height="1em" viewBox="0 0 16 16" fill="%23a3a3a3" xmlns="http://www.w3.org/2000/svg"><path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/></svg>');
+  background-repeat: no-repeat;
+  -webkit-background-size: 1rem 1rem;
+          background-size: 1rem 1rem;
+  background-position: 0 0.25rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-left: -23px;
+}
+
+.sidebar nav > ul > li.nav-item.menu-item--expanded::before{
+  display: inline-block;
+  content: "";
+  background-image: url('data:image/svg+xml,<svg class="bi bi-caret-down" width="1em" height="1em" viewBox="0 0 16 16" fill="%23a3a3a3" xmlns="http://www.w3.org/2000/svg"><path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/></svg>');
+  background-repeat: no-repeat;
+  -webkit-background-size: 1rem 1rem;
+          background-size: 1rem 1rem;
+  background-position: 0 0.25rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-left: -23px;
+}
+
+.sidebar ul li a{
+    display: contents;
+}
+
+.sidebar ul.nav li a.active{
+    font-weight: bold;
+}
+
+
+/** Sidebars **/
+
+/** Footer **/
+
+.site-footer{
+    padding: 0;
+}
+
+.site-footer .block{
+    margin: 0;
+    border: none;
+}
+
+.site-footer_top .contents{
+    display: table;
+    margin: 0 auto;
+}
+
+.site-footer_top .container{
+    background-color: #437a76;
+}
+
+.site-footer_bottom .container{
+    background-color: #EFEFEF;
+}
+
+.site-footer_bottom .content{
+    color: #5E5E5E;
+    text-align: center;
+}
+
+.site-footer_bottom a,
+.site-footer_bottom a:link,
+.site-footer_bottom a:hover,
+.site-footer_bottom a:visited,
+.site-footer_bottom a:active{
+    color: #437a76;
+}
+
+.site-footer_top ul.navbar-nav{
+    flex-direction: row;
+}
+
+.site-footer_top ul.navbar-nav li a{
+    color: #FFFFFF;
+    border-right: 1px solid #fff;
+    padding:  0 10px;
+    line-height: 1em;
+}
+
+.site-footer_top ul.navbar-nav li:last-child a{
+    border: none;
+}
+
+
+
+/** Footer **/
