@@ -256,6 +256,7 @@ img{
     display: contents;
 }
 
+.sidebar ul.nav li a.active,
 .sidebar ul.nav li a.is-active{
     font-weight: bold;
 }
