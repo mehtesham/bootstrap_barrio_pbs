@@ -200,8 +200,8 @@ img{
 
 /** News View **/
 
-#block-views-block-whats-new-block-1 .views-row{
-
+#block-views-block-whats-new-block-1 .views-row p{
+    margin-bottom: 0;
 }
 
 /** News View **/
