@@ -166,7 +166,12 @@ img{
 
 .region-front-content .block{
     border-bottom: 10px solid #EFEFEF;
+    padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.region-front-content .block:first-child{
+    padding-top: 0;
 }
 
 /** Region Front **/
