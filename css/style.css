@@ -204,6 +204,10 @@ img{
     margin-bottom: 0;
 }
 
+#block-views-block-whats-new-block-1 .views-row hr{
+    margin: .5rem 0;
+}
+
 /** News View **/
 
 /** Table **/
