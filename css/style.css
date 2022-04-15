@@ -9,6 +9,12 @@ body{
 
 a, .nav-link{
     color: #437a76;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #437a76;
+    text-decoration: underline;
 }
 
 img{
