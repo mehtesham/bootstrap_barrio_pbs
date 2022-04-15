@@ -157,9 +157,17 @@ img{
     margin-left: 1px;
     font-size: .85em;
 }
-
  
 /** Content Area **/
+
+/** Region Front **/
+
+.region-front-content .block{
+    border-bottom: 10px solid #EFEFEF;
+    padding-bottom: 10px;
+}
+
+/** Region Front **/
 
 /** Fields **/
 .field--label-inline .field__items{
