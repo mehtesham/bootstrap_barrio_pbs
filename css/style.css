@@ -208,6 +208,10 @@ img{
     margin: .5rem 0;
 }
 
+#block-views-block-whats-new-block-1 .views-row .views-field-title{
+    font-weight: bold;
+}
+
 /** News View **/
 
 /** Table **/
