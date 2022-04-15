@@ -139,10 +139,12 @@ img{
     margin-bottom: 10px;
 }
 
+.region-front-content .more-link,
 .main-content .more-button{
     float: right;
 }
 
+.region-front-content .more-link::after,
 .main-content .more-button::after{
     display: inline-block;
     content: ">";
