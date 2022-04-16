@@ -232,7 +232,8 @@ img{
 
 /** Latest Publications View **/
 
-li.publication-item .views-field{
+li.publication-item .views-field-created,
+li.publication-item .views-field-title{
     border-left: 3px solid;
     margin-left: 10px;
     padding-left: 10px;
