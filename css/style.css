@@ -230,6 +230,16 @@ img{
 
 /** News View **/
 
+/** Latest Publications View **/
+
+li.publication-item .views-field{
+    border-left: 3px solid;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+/** Latest Publications View **/
+
 /** Table **/
 
 
