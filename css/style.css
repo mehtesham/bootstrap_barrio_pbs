@@ -238,7 +238,7 @@ li.publication-item{
 
 li.publication-item .views-field-created,
 li.publication-item .views-field-title{
-    border-left: 3px solid #2ad7ff
+    border-left: 3px solid #2ad7ff;
     padding-left: 10px;
 }
 
