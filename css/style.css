@@ -106,8 +106,8 @@ img{
 
 #navigation li.nav-item a:hover,
 #navigation li.nav-item a:active,
-#navigation li.nav-item li a.active,
-#navigation li.nav-itemli a.active-trail{
+#navigation li.nav-item a.active,
+#navigation li.nav-item a.active-trail{
   color: #fff;
   text-decoration: none;
   background: #437a76;
@@ -139,11 +139,13 @@ img{
     margin-bottom: 10px;
 }
 
+.sidebar .more-link,
 .region-front-content .more-link,
 .main-content .more-button{
     float: right;
 }
 
+.sidebar .more-link::after,
 .region-front-content .more-link::after,
 .main-content .more-button::after{
     display: inline-block;
