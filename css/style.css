@@ -145,6 +145,10 @@ img{
     float: right;
 }
 
+.sidebar .more-link{
+    margin-top: 10px;
+}
+
 .sidebar .more-link::after,
 .region-front-content .more-link::after,
 .main-content .more-button::after{
@@ -262,6 +266,7 @@ li.publication-item .views-field-title{
 .sidebar .block{
     border-color: #ddd;
     background-color: #fff;
+    overflow: auto;
 }
 
 .sidebar h2{
