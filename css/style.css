@@ -406,3 +406,12 @@ thead tr{
 
 
 /** Footer **/
+
+
+/** Views **/
+
+.view-content .item-list ul li {
+    padding: 0.2em 0.5em;
+}
+
+/** Views **/
