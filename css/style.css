@@ -245,9 +245,10 @@ img{
 
 li.publication-item{
     margin-left: 5px;
+}
+
+li.publication-item:hover{
     border-left: 3px solid #2ad7ff;
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 
 /** Latest Publications View **/
