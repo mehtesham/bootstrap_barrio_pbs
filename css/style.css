@@ -245,12 +245,9 @@ img{
 
 li.publication-item{
     margin-left: 5px;
-}
-
-li.publication-item .views-field-created:hover,
-li.publication-item .views-field-title:hover{
     border-left: 3px solid #2ad7ff;
-    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /** Latest Publications View **/
