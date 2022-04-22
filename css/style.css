@@ -429,6 +429,7 @@ thead tr{
 #block-populationcensusbutton a.btn{
     background-color: #437a76;
     border-color: #437a76;
+}
 
 #block-populationcensusbutton a.btn:hover{
     text-decoration: none;
