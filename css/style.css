@@ -246,10 +246,19 @@ img{
 li.publication-item{
     border-left: none;
     border-right: none;
+    border-radius: 0;
+}
+
+li.publication-item::after{
+    display: inline-block;
+    content: ">";
+    line-height: 1em;
+    border-radius: 10px;
+    color: #2ad7ff;
 }
 
 li.publication-item:hover{
-    border-left: 3px solid #2ad7ff;
+    border-left: 4px solid #2ad7ff;
 }
 
 /** Latest Publications View **/
