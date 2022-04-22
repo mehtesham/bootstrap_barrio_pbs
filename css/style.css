@@ -247,8 +247,8 @@ li.publication-item{
     margin-left: 5px;
 }
 
-li.publication-item .views-field-created,
-li.publication-item .views-field-title{
+li.publication-item .views-field-created:hover,
+li.publication-item .views-field-title:hover{
     border-left: 3px solid #2ad7ff;
     padding-left: 10px;
 }
@@ -430,6 +430,7 @@ thead tr{
     background-color: #437a76;
     border-color: #437a76;
     font-weight: bold;
+    font-size: 1.2em;
 }
 
 #block-populationcensusbutton a.btn:hover{
