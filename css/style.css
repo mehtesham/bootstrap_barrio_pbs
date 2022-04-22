@@ -427,4 +427,9 @@ thead tr{
     margin: 0;
 }
 
+
+#block-populationcensusbutton a.btn:hover{
+    text-decoration: none;
+}
+
 /** Custom blocks **/
