@@ -415,3 +415,16 @@ thead tr{
 }
 
 /** Views **/
+
+
+/** Custom blocks **/
+
+#block-populationcensusbutton{
+    padding: 0;
+}
+
+#block-populationcensusbutton .field--name-body{
+    margin: 0;
+}
+
+/** Custom blocks **/
