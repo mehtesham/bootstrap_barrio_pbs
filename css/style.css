@@ -429,11 +429,11 @@ thead tr{
 #block-populationcensusbutton a.btn{
     background-color: #437a76;
     border-color: #437a76;
+    font-weight: bold;
 }
 
 #block-populationcensusbutton a.btn:hover{
     text-decoration: none;
-    font-weight: bold;
 }
 
 /** Custom blocks **/
