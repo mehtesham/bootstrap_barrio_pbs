@@ -244,7 +244,8 @@ img{
 /** Latest Publications View **/
 
 li.publication-item{
-    margin-left: 5px;
+    border-left: none;
+    border-right: none;
 }
 
 li.publication-item:hover{
