@@ -359,6 +359,10 @@ thead tr{
     font-weight: bold;
 }
 
+.sidebar_first .list-group{
+    padding-left: 1rem;
+}
+
 .sidebar_first .list-group .list-group-item:first-child{
     border-top: none;
 }
@@ -368,6 +372,7 @@ thead tr{
     border-left: none;
     border-right: none;
     padding: .3rem;
+
 }
 
 .sidebar_first .list-group .list-group-item:last-child{
