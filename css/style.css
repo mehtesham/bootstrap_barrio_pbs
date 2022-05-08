@@ -367,6 +367,7 @@ thead tr{
     border-radius: 0;
     border-left: none;
     border-right: none;
+    padding: .3rem;
 }
 
 .sidebar_first .list-group .list-group-item:last-child{
