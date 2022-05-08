@@ -359,6 +359,20 @@ thead tr{
     font-weight: bold;
 }
 
+.sidebar_first .list-group .list-group-item:first-child{
+    border-top: none;
+}
+
+.sidebar_first .list-group .list-group-item{
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+}
+
+.sidebar_first .list-group .list-group-item:last-child{
+    border-bottom: none;
+}
+
 
 /** Sidebars **/
 
