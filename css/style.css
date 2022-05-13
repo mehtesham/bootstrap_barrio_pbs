@@ -466,3 +466,15 @@ thead tr{
 }
 
 /** Custom blocks **/
+
+/** Responsive Styling **/
+
+@media (max-width: 47.9em) {
+    #block-relevantorganizations,
+    #block-views-block-tables-block-2,
+    #block-latestpublicationsimages {
+        display: none;
+    }
+}
+
+/** Responsive Styling **/
