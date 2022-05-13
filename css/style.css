@@ -62,7 +62,7 @@ img{
     border: 1px solid #9FA3A2;
 }
 
-#header .search-block-form #edit-submit{
+#header .search-block-form .form-submit{
     background: #ffffff url(../images/zoom_in_3.png) top left no-repeat;
     height: 23px;
     width: 24px;
@@ -107,7 +107,8 @@ img{
 #navigation li.nav-item a:hover,
 #navigation li.nav-item a:active,
 #navigation li.nav-item a.active,
-#navigation li.nav-item a.active-trail{
+#navigation li.nav-item a.active-trail,
+#navigation li.nav-item a.is-active{
   color: #fff;
   text-decoration: none;
   background: #437a76;
@@ -357,10 +358,6 @@ thead tr{
 .sidebar ul.nav li a.active,
 .sidebar ul.nav li a.is-active{
     font-weight: bold;
-}
-
-.sidebar_first .list-group{
-    padding-left: 1rem;
 }
 
 .sidebar_first .list-group .list-group-item:first-child{
