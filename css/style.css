@@ -221,7 +221,7 @@ img{
 }
 
 .contacts-view table tr th, .contacts-view table tr th a, .contacts-view table tr th a:hover, .contacts-view table tr th a:focus{
-    color: #333333;
+    /*color: #333333;*/
 }
 
 /** Contacts View **/
