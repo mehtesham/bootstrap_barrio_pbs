@@ -472,7 +472,8 @@ thead tr{
 @media (max-width: 47.9em) {
     #block-relevantorganizations,
     #block-views-block-tables-block-2,
-    #block-latestpublicationsimages {
+    #block-latestpublicationsimages,
+    #block-views-block-last-updated-block-1 {
         display: none;
     }
 }
